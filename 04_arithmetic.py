@@ -29,6 +29,24 @@ print(f'convert float 1.732 to complex number: {complex(1.732)}') # convert to c
 
 
 # ARITHMETIC OPERATIONS SECTION BEGINS
+a = 2 # int
+b = 6.0 # float
+c = 12 + 0j # commplex number
+
+# Rule: widen numbers so they're the same type
+
+# Addition
+print(f'a + b: {a + b}')  # int + float = a float (8.0)
+
+# Subtraction
+print(f'b - a: {b - a}') # float - int = float (4.0)
+
+# Multiplication
+print(f'a * 7: {a * 7}') # int * int = int
+
+# Division
+print(f'c / b: {c / b}') # complex / float = complex (2+0j)
+
 
 
 
